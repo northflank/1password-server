@@ -10,4 +10,6 @@ RUN chmod +x entrypoint.sh
 RUN chmod +x /bin/connect-api
 RUN chmod +x /bin/connect-sync
 
+EXPOSE 8080
+
 CMD ./entrypoint.sh
